@@ -15,10 +15,10 @@ public class PaystackService : IPaystackService
     private readonly string _paystackSecret;
     private readonly PayStackApi _api;
 
-    public PaystackService(IConfiguration configuration)
+    public PaystackService(IConfiguration configuration, PayStackApi api = null)
     {
         _paystackSecret = configuration["PayStackSecret"];
-        _api = new PayStackApi(_paystackSecret);
+        _api = api ?? new PayStackApi(_paystackSecret);
     }
     /// <summary>
     /// "Method to initialize payment"

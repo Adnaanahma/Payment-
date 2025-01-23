@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.11.35222.181
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Payment.Service", "Payment.Service\Payment.Service.csproj", "{1B3773D4-C09F-48FD-8F00-3596F1F7C7AD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Payment.Service", "Payment.Service\Payment.Service.csproj", "{1B3773D4-C09F-48FD-8F00-3596F1F7C7AD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Payment.Model", "Payment.Model\Payment.Model.csproj", "{D54EEB05-FD26-45EF-A564-5015370280EF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Payment.Model", "Payment.Model\Payment.Model.csproj", "{D54EEB05-FD26-45EF-A564-5015370280EF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Payment.Api", "Payment.Api\Payment.Api.csproj", "{F872ED04-A9D5-47FE-8C57-79F0F8871FFA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Payment.Api", "Payment.Api\Payment.Api.csproj", "{F872ED04-A9D5-47FE-8C57-79F0F8871FFA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
